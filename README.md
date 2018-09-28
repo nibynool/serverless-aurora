@@ -15,6 +15,7 @@ Aurora Serverless must be created in a VPC, so your `serverless.yml` file will n
 
 <details><summary>I've used the following snippet to establish a VPC as part of the serverless deployment</summary>
 <p>
+
 ```yml
 resources:
   Resources:
@@ -189,6 +190,7 @@ resources:
 </details>
 <details><summary>Now the VPC and all associated services have been created you can add the configuration to call the custom Lambda function created by this service.  Add the following to the previous snippet</sumary>
 <p>
+
 ```yml
     AuroraServerless:
       Type: Custom::CustomResource
