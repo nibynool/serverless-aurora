@@ -208,9 +208,6 @@ resources:
           Ref: DatabaseSubnetGroup
 ```
 
-</p>
-</details>
-
 You will need to replace:
 * `<Region>` with the AWS region you've deployed this service to
 * `<AWSActID>` with the AWS account ID you've deployed with
@@ -218,3 +215,6 @@ You will need to replace:
 * `<DatabaseName>` with the name of the database to create on the cluster
 * `<Username>` with the superuser login name
 * `<Password>` with the superuser password 
+
+</p>
+</details>
