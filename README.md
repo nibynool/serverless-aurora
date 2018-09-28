@@ -210,6 +210,7 @@ resources:
 
 </p>
 </details>
+
 You will need to replace:
 * `<Region>` with the AWS region you've deployed this service to
 * `<AWSActID>` with the AWS account ID you've deployed with
