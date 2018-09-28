@@ -13,7 +13,8 @@ Before using this in any sort of production environment, please be aware that I 
 ## Usage
 Aurora Serverless must be created in a VPC, so your `serverless.yml` file will need to know about the VPC.
 
-<details><summary>I've used the following snippet to establish a VPC as part of the serverless deployment</summary>
+<details>
+<summary>I've used the following snippet to establish a VPC as part of the serverless deployment</summary>
 <p>
 
 ```yml
@@ -189,7 +190,9 @@ resources:
 
 </p>
 </details>
-<details><summary>Now the VPC and all associated services have been created you can add the configuration to call the custom Lambda function created by this service.  Add the following to the previous snippet</sumary>
+
+<details>
+<summary>Now the VPC and all associated services have been created you can add the configuration to call the custom Lambda function created by this service.  Add the following to the previous snippet</summary>
 <p>
 
 ```yml
