@@ -186,6 +186,7 @@ resources:
           - Ref: PrivateSubnet1
           - Ref: PrivateSubnet2
 ```
+
 </p>
 </details>
 <details><summary>Now the VPC and all associated services have been created you can add the configuration to call the custom Lambda function created by this service.  Add the following to the previous snippet</sumary>
@@ -203,6 +204,7 @@ resources:
         DBSubnetGroupName:
           Ref: DatabaseSubnetGroup
 ```
+
 </p>
 </details>
 You will need to replace:
